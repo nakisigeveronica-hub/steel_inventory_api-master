@@ -1,0 +1,35 @@
+steel_inventory_api/
+│
+├── config/
+│   └── database.php
+│
+├── auth/
+│   ├── login.php
+│   └── register.php
+│
+├── products/
+│   ├── list.php
+│   ├── create.php
+│   ├── update.php
+│   ├── delete.php
+│   ├── search.php
+│   └── filter.php
+│
+├── suppliers/
+│   ├── list.php
+│   ├── create.php
+│   ├── update.php
+│   └── delete.php
+│
+├── categories/
+│   └── list.php
+│
+├── transactions/
+│   ├── stock_in.php
+│   ├── stock_out.php
+│   └── history.php
+│
+└── reports/
+    ├── dashboard.php
+    ├── low_stock.php
+    └── recent_transactions.php
